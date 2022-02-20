@@ -1,0 +1,89 @@
+.screen-two {
+  margin: 100px 80px;
+  @media(max-width: 1500px) {
+    @include flex-column-center;
+    text-align: center;
+  }
+  @media(max-width: 420px) {
+    margin: 0;
+  }
+  h2 {
+    font-size: 55pt;
+  }
+  .block-container {
+    display: flex;
+    flex-direction: row;
+    @media(max-width: 1500px) {
+      flex-direction: column;
+    }
+
+    h3 {
+      margin: 50px 0px;
+      font-size: 35pt;
+      letter-spacing: 1px;
+    }
+
+    .left-block {
+      display: flex;
+      flex-direction: column;
+
+      .container {
+        display: flex;
+        flex-direction: row;
+        font-size: 17pt;
+        @media(max-width: 1500px) {
+          @include flex-row-center;
+        }
+        @media(max-width: 710px) {
+          @include flex-column-center;
+        }
+
+        .address {
+          width: 435px;
+          @media(max-width: 445px) {
+            width: 100%;
+          }
+          div {
+            margin: 12px 0px;
+          }
+
+          .phone {
+            font-size: 30pt;
+            margin: 45px 0 0 0;
+          }
+        }
+
+        .contacts {
+          width: max-content;
+
+          div {
+            margin: 12px 0px;
+          }
+
+          a {
+            color: $red;
+          }
+        }
+      }
+    }
+    .right-block {
+      display: flex;
+      flex-direction: column;
+      padding: 0 0 0 180px;
+      @media(max-width: 1500px) {
+        padding: 0;
+      }
+
+      .container {
+        font-size: 17pt;
+        line-height: 32pt;
+      }
+
+      .phone {
+        font-size: 30pt;
+        margin: 45px 0 0 0;
+      }
+    }
+
+  }
+}

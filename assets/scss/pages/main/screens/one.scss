@@ -1,0 +1,23 @@
+.screen-one {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img{
+    width: 100%;
+    object-fit: cover;
+    @media (max-width:960px){
+      height: 560px;
+    }
+    @media (max-width:670px){
+      height: 430px;
+    }
+  }
+}
+.site-name{
+  position: absolute;
+  color: $white;
+  @include site-name-font-size;
+  font-weight: bold;
+}

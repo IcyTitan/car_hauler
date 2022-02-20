@@ -1,0 +1,91 @@
+.screen-three {
+  background-color: $grey;
+  color: $white;
+  display: flex;
+  flex-wrap: wrap;
+  @media(max-width:980px){
+    flex-direction: column;
+  }
+  div{
+    flex: 1 0 50%;
+    @media(max-width:980px){
+      flex: unset;
+    }
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .map-menu {
+    padding: 150px 0 150px 80px;
+    @media (max-width:1890px) {
+      padding: 150px 0 150px 20px;
+    }
+    @media (max-width: 980px) {
+        padding: 25px 0 25px 0px;
+    }
+    width: 50%;
+    @media(max-width:980px){
+      width: 100%;
+      text-align: center;
+      @include flex-column-center;
+    }
+    h2 {
+      font-size: 37pt;
+    }
+    .active{
+      color: $dark-green;
+    }
+    .map-tab{
+      display: none;
+    }
+    .show{
+      display: block;
+    }
+    .map-tabs {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      list-style: none;
+      @media(max-width:440px) {
+        @include flex-column-center;
+      }
+      margin: 50px 0;
+      width: 425px;
+      font-size: 16pt;
+    }
+
+    .tab-text {
+      font-size: 37pt;
+      margin-top: 60px;
+    }
+
+    .address {
+      font-size: 16pt;
+      margin-top: 35px;
+
+      div {
+        margin: 15px 0;
+      }
+    }
+  }
+  .map
+  {
+    filter: grayscale(1);
+  }
+  .map-mobile{
+    width:90%;
+    @media(max-width:980px) {
+      height: 350px;
+    }
+    filter: grayscale(1);
+  }
+  .y-map-container {
+    width: 100%;
+    height: 100%;
+  }
+}
+#main-map {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}

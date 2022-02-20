@@ -1,0 +1,38 @@
+02/17/22 6:16:48: index.scss - parse error: failed at `font-size: ;` C:\OpenServer\domains\localhost\wp-content\themes\testtask\assets\scss\pages\main\screens\one.scss on line 11, at column 3
+02/19/22 4:17:43: index.scss - Undefined variable $green: pages/main/screens/four.scss on line 2, at column 3
+Call Stack:
+#0 import pages/main/screens/four.scss pages/main/screens/index.scss on line 4
+#1 import pages/main/screens/index.scss pages/main/index.scss on line 1
+#2 import pages/main/index.scss pages/index.scss on line 3
+#3 import pages/index.scss index.scss on line 4
+02/19/22 4:18:05: index.scss - Undefined variable $green: pages/main/screens/four.scss on line 2, at column 3
+Call Stack:
+#0 import pages/main/screens/four.scss pages/main/screens/index.scss on line 4
+#1 import pages/main/screens/index.scss pages/main/index.scss on line 1
+#2 import pages/main/index.scss pages/index.scss on line 3
+#3 import pages/index.scss index.scss on line 4
+02/19/22 4:18:10: index.scss - Undefined variable $green: pages/main/screens/four.scss on line 2, at column 3
+Call Stack:
+#0 import pages/main/screens/four.scss pages/main/screens/index.scss on line 4
+#1 import pages/main/screens/index.scss pages/main/index.scss on line 1
+#2 import pages/main/index.scss pages/index.scss on line 3
+#3 import pages/index.scss index.scss on line 4
+02/19/22 4:18:23: index.scss - Undefined variable $green: pages/main/screens/four.scss on line 2, at column 3
+Call Stack:
+#0 import pages/main/screens/four.scss pages/main/screens/index.scss on line 4
+#1 import pages/main/screens/index.scss pages/main/index.scss on line 1
+#2 import pages/main/index.scss pages/index.scss on line 3
+#3 import pages/index.scss index.scss on line 4
+02/19/22 4:18:24: index.scss - Undefined variable $green: pages/main/screens/four.scss on line 2, at column 3
+Call Stack:
+#0 import pages/main/screens/four.scss pages/main/screens/index.scss on line 4
+#1 import pages/main/screens/index.scss pages/main/index.scss on line 1
+#2 import pages/main/index.scss pages/index.scss on line 3
+#3 import pages/index.scss index.scss on line 4
+02/19/22 4:18:40: index.scss - Undefined variable $green: pages/main/screens/four.scss on line 2, at column 3
+Call Stack:
+#0 import pages/main/screens/four.scss pages/main/screens/index.scss on line 4
+#1 import pages/main/screens/index.scss pages/main/index.scss on line 1
+#2 import pages/main/index.scss pages/index.scss on line 3
+#3 import pages/index.scss index.scss on line 4
+02/19/22 7:00:12: index.scss - parse error: failed at `@include $large-font;` C:\OpenServer\domains\localhost\wp-content\themes\testtask\assets\scss\pages\main\screens\one.scss on line 21, at column 3

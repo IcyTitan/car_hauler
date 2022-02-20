@@ -1,0 +1,9 @@
+@mixin site-name-font-size{
+  font-size: 45pt;
+  @media (max-width: 960px) {
+    font-size: 30pt;
+  }
+  @media (max-width: 670px) {
+    font-size: 22pt;
+  }
+}
